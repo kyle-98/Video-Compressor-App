@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		27CF0A2B2CE851EE0096DA4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27CF0A122CE851ED0096DA4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27CF0A192CE851ED0096DA4B;
+			remoteInfo = VideoCompressor;
+		};
+		27CF0A352CE851EE0096DA4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27CF0A122CE851ED0096DA4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27CF0A192CE851ED0096DA4B;
+			remoteInfo = VideoCompressor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27CF0A1A2CE851ED0096DA4B /* VideoCompressor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoCompressor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27CF0A2A2CE851EE0096DA4B /* VideoCompressorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoCompressorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27CF0A342CE851EE0096DA4B /* VideoCompressorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoCompressorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		27CF0A5E2CE9155C0096DA4B /* Exceptions for "VideoCompressorTests" folder in "VideoCompressorTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 27CF0A292CE851EE0096DA4B /* VideoCompressorTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		27CF0A1C2CE851ED0096DA4B /* VideoCompressor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VideoCompressor;
+			sourceTree = "<group>";
+		};
+		27CF0A2D2CE851EE0096DA4B /* VideoCompressorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				27CF0A5E2CE9155C0096DA4B /* Exceptions for "VideoCompressorTests" folder in "VideoCompressorTests" target */,
+			);
+			path = VideoCompressorTests;
+			sourceTree = "<group>";
+		};
+		27CF0A372CE851EE0096DA4B /* VideoCompressorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VideoCompressorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27CF0A172CE851ED0096DA4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27CF0A272CE851EE0096DA4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27CF0A312CE851EE0096DA4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27CF0A112CE851ED0096DA4B = {
+			isa = PBXGroup;
+			children = (
+				27CF0A1C2CE851ED0096DA4B /* VideoCompressor */,
+				27CF0A2D2CE851EE0096DA4B /* VideoCompressorTests */,
+				27CF0A372CE851EE0096DA4B /* VideoCompressorUITests */,
+				27CF0A1B2CE851ED0096DA4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27CF0A1B2CE851ED0096DA4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27CF0A1A2CE851ED0096DA4B /* VideoCompressor.app */,
+				27CF0A2A2CE851EE0096DA4B /* VideoCompressorTests.xctest */,
+				27CF0A342CE851EE0096DA4B /* VideoCompressorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27CF0A192CE851ED0096DA4B /* VideoCompressor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27CF0A3E2CE851EE0096DA4B /* Build configuration list for PBXNativeTarget "VideoCompressor" */;
+			buildPhases = (
+				27CF0A162CE851ED0096DA4B /* Sources */,
+				27CF0A172CE851ED0096DA4B /* Frameworks */,
+				27CF0A182CE851ED0096DA4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				27CF0A1C2CE851ED0096DA4B /* VideoCompressor */,
+			);
+			name = VideoCompressor;
+			packageProductDependencies = (
+			);
+			productName = VideoCompressor;
+			productReference = 27CF0A1A2CE851ED0096DA4B /* VideoCompressor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27CF0A292CE851EE0096DA4B /* VideoCompressorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27CF0A412CE851EE0096DA4B /* Build configuration list for PBXNativeTarget "VideoCompressorTests" */;
+			buildPhases = (
+				27CF0A262CE851EE0096DA4B /* Sources */,
+				27CF0A272CE851EE0096DA4B /* Frameworks */,
+				27CF0A282CE851EE0096DA4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27CF0A2C2CE851EE0096DA4B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				27CF0A2D2CE851EE0096DA4B /* VideoCompressorTests */,
+			);
+			name = VideoCompressorTests;
+			packageProductDependencies = (
+			);
+			productName = VideoCompressorTests;
+			productReference = 27CF0A2A2CE851EE0096DA4B /* VideoCompressorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27CF0A332CE851EE0096DA4B /* VideoCompressorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27CF0A442CE851EE0096DA4B /* Build configuration list for PBXNativeTarget "VideoCompressorUITests" */;
+			buildPhases = (
+				27CF0A302CE851EE0096DA4B /* Sources */,
+				27CF0A312CE851EE0096DA4B /* Frameworks */,
+				27CF0A322CE851EE0096DA4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27CF0A362CE851EE0096DA4B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				27CF0A372CE851EE0096DA4B /* VideoCompressorUITests */,
+			);
+			name = VideoCompressorUITests;
+			packageProductDependencies = (
+			);
+			productName = VideoCompressorUITests;
+			productReference = 27CF0A342CE851EE0096DA4B /* VideoCompressorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27CF0A122CE851ED0096DA4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					27CF0A192CE851ED0096DA4B = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					27CF0A292CE851EE0096DA4B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 27CF0A192CE851ED0096DA4B;
+					};
+					27CF0A332CE851EE0096DA4B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 27CF0A192CE851ED0096DA4B;
+					};
+				};
+			};
+			buildConfigurationList = 27CF0A152CE851ED0096DA4B /* Build configuration list for PBXProject "VideoCompressor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27CF0A112CE851ED0096DA4B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 27CF0A1B2CE851ED0096DA4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27CF0A192CE851ED0096DA4B /* VideoCompressor */,
+				27CF0A292CE851EE0096DA4B /* VideoCompressorTests */,
+				27CF0A332CE851EE0096DA4B /* VideoCompressorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27CF0A182CE851ED0096DA4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27CF0A282CE851EE0096DA4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27CF0A322CE851EE0096DA4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27CF0A162CE851ED0096DA4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27CF0A262CE851EE0096DA4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27CF0A302CE851EE0096DA4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27CF0A2C2CE851EE0096DA4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27CF0A192CE851ED0096DA4B /* VideoCompressor */;
+			targetProxy = 27CF0A2B2CE851EE0096DA4B /* PBXContainerItemProxy */;
+		};
+		27CF0A362CE851EE0096DA4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27CF0A192CE851ED0096DA4B /* VideoCompressor */;
+			targetProxy = 27CF0A352CE851EE0096DA4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27CF0A3C2CE851EE0096DA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27CF0A3D2CE851EE0096DA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27CF0A3F2CE851EE0096DA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VideoCompressor/Preview Content\"";
+				DEVELOPMENT_TEAM = 6773F3CFWH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Video Compressor";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need to be able to save compressed videos";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need to access videos in photos library";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemon.VideoCompressor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27CF0A402CE851EE0096DA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VideoCompressor/Preview Content\"";
+				DEVELOPMENT_TEAM = 6773F3CFWH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Video Compressor";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need to be able to save compressed videos";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need to access videos in photos library";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemon.VideoCompressor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27CF0A422CE851EE0096DA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6773F3CFWH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VideoCompressorTests/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need to be able to record videos to compress";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need to be abel to save compressed videos";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need to be able to choose videos";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemon.VideoCompressorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoCompressor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VideoCompressor";
+			};
+			name = Debug;
+		};
+		27CF0A432CE851EE0096DA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6773F3CFWH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VideoCompressorTests/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need to be able to record videos to compress";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need to be abel to save compressed videos";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need to be able to choose videos";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemon.VideoCompressorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoCompressor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VideoCompressor";
+			};
+			name = Release;
+		};
+		27CF0A452CE851EE0096DA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6773F3CFWH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemon.VideoCompressorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoCompressor;
+			};
+			name = Debug;
+		};
+		27CF0A462CE851EE0096DA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6773F3CFWH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemon.VideoCompressorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoCompressor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27CF0A152CE851ED0096DA4B /* Build configuration list for PBXProject "VideoCompressor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27CF0A3C2CE851EE0096DA4B /* Debug */,
+				27CF0A3D2CE851EE0096DA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27CF0A3E2CE851EE0096DA4B /* Build configuration list for PBXNativeTarget "VideoCompressor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27CF0A3F2CE851EE0096DA4B /* Debug */,
+				27CF0A402CE851EE0096DA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27CF0A412CE851EE0096DA4B /* Build configuration list for PBXNativeTarget "VideoCompressorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27CF0A422CE851EE0096DA4B /* Debug */,
+				27CF0A432CE851EE0096DA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27CF0A442CE851EE0096DA4B /* Build configuration list for PBXNativeTarget "VideoCompressorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27CF0A452CE851EE0096DA4B /* Debug */,
+				27CF0A462CE851EE0096DA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27CF0A122CE851ED0096DA4B /* Project object */;
+}
